@@ -37,5 +37,5 @@ print(kursAdi.replace(' ','-'))
 # 10-'Hello World' karakter dizisinin 'World' ifadesini 'There' olarak değiştirin
 print('Hello World'.replace('World','There'))
 # 11-'kursAdi' karakter dizisini boşluk karakterlerinden ayırın.
-kursAdi=kursAdi.replace(':','')
+kursAdi=kursAdi.lower().replace(':','')
 print(kursAdi.split(" "))
